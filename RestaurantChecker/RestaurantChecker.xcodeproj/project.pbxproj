@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01FC2E52235B928900C1418A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC2E51235B928900C1418A /* AppDelegate.m */; };
+		01FC2E54235B928A00C1418A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FC2E53235B928A00C1418A /* Assets.xcassets */; };
+		01FC2E57235B928A00C1418A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FC2E55235B928A00C1418A /* MainMenu.xib */; };
+		01FC2E5A235B928A00C1418A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC2E59235B928A00C1418A /* main.m */; };
+		01FC2E65235B928A00C1418A /* RestaurantCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC2E64235B928A00C1418A /* RestaurantCheckerTests.m */; };
+		01FC2E70235B928A00C1418A /* RestaurantCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FC2E6F235B928A00C1418A /* RestaurantCheckerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01FC2E61235B928A00C1418A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FC2E45235B928900C1418A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FC2E4C235B928900C1418A;
+			remoteInfo = RestaurantChecker;
+		};
+		01FC2E6C235B928A00C1418A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FC2E45235B928900C1418A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FC2E4C235B928900C1418A;
+			remoteInfo = RestaurantChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FC2E4D235B928900C1418A /* RestaurantChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FC2E50235B928900C1418A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01FC2E51235B928900C1418A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01FC2E53235B928A00C1418A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FC2E56235B928A00C1418A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		01FC2E58235B928A00C1418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FC2E59235B928A00C1418A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01FC2E5B235B928A00C1418A /* RestaurantChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RestaurantChecker.entitlements; sourceTree = "<group>"; };
+		01FC2E60235B928A00C1418A /* RestaurantCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FC2E64235B928A00C1418A /* RestaurantCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantCheckerTests.m; sourceTree = "<group>"; };
+		01FC2E66235B928A00C1418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FC2E6B235B928A00C1418A /* RestaurantCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FC2E6F235B928A00C1418A /* RestaurantCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantCheckerUITests.m; sourceTree = "<group>"; };
+		01FC2E71235B928A00C1418A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FC2E4A235B928900C1418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E5D235B928A00C1418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E68235B928A00C1418A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FC2E44235B928900C1418A = {
+			isa = PBXGroup;
+			children = (
+				01FC2E4F235B928900C1418A /* RestaurantChecker */,
+				01FC2E63235B928A00C1418A /* RestaurantCheckerTests */,
+				01FC2E6E235B928A00C1418A /* RestaurantCheckerUITests */,
+				01FC2E4E235B928900C1418A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01FC2E4E235B928900C1418A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FC2E4D235B928900C1418A /* RestaurantChecker.app */,
+				01FC2E60235B928A00C1418A /* RestaurantCheckerTests.xctest */,
+				01FC2E6B235B928A00C1418A /* RestaurantCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FC2E4F235B928900C1418A /* RestaurantChecker */ = {
+			isa = PBXGroup;
+			children = (
+				01FC2E50235B928900C1418A /* AppDelegate.h */,
+				01FC2E51235B928900C1418A /* AppDelegate.m */,
+				01FC2E53235B928A00C1418A /* Assets.xcassets */,
+				01FC2E55235B928A00C1418A /* MainMenu.xib */,
+				01FC2E58235B928A00C1418A /* Info.plist */,
+				01FC2E59235B928A00C1418A /* main.m */,
+				01FC2E5B235B928A00C1418A /* RestaurantChecker.entitlements */,
+			);
+			path = RestaurantChecker;
+			sourceTree = "<group>";
+		};
+		01FC2E63235B928A00C1418A /* RestaurantCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				01FC2E64235B928A00C1418A /* RestaurantCheckerTests.m */,
+				01FC2E66235B928A00C1418A /* Info.plist */,
+			);
+			path = RestaurantCheckerTests;
+			sourceTree = "<group>";
+		};
+		01FC2E6E235B928A00C1418A /* RestaurantCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01FC2E6F235B928A00C1418A /* RestaurantCheckerUITests.m */,
+				01FC2E71235B928A00C1418A /* Info.plist */,
+			);
+			path = RestaurantCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FC2E4C235B928900C1418A /* RestaurantChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FC2E74235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantChecker" */;
+			buildPhases = (
+				01FC2E49235B928900C1418A /* Sources */,
+				01FC2E4A235B928900C1418A /* Frameworks */,
+				01FC2E4B235B928900C1418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantChecker;
+			productName = RestaurantChecker;
+			productReference = 01FC2E4D235B928900C1418A /* RestaurantChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01FC2E5F235B928A00C1418A /* RestaurantCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FC2E77235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantCheckerTests" */;
+			buildPhases = (
+				01FC2E5C235B928A00C1418A /* Sources */,
+				01FC2E5D235B928A00C1418A /* Frameworks */,
+				01FC2E5E235B928A00C1418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FC2E62235B928A00C1418A /* PBXTargetDependency */,
+			);
+			name = RestaurantCheckerTests;
+			productName = RestaurantCheckerTests;
+			productReference = 01FC2E60235B928A00C1418A /* RestaurantCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01FC2E6A235B928A00C1418A /* RestaurantCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FC2E7A235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantCheckerUITests" */;
+			buildPhases = (
+				01FC2E67235B928A00C1418A /* Sources */,
+				01FC2E68235B928A00C1418A /* Frameworks */,
+				01FC2E69235B928A00C1418A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FC2E6D235B928A00C1418A /* PBXTargetDependency */,
+			);
+			name = RestaurantCheckerUITests;
+			productName = RestaurantCheckerUITests;
+			productReference = 01FC2E6B235B928A00C1418A /* RestaurantCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FC2E45235B928900C1418A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Bharddwaj Vemulapalli";
+				TargetAttributes = {
+					01FC2E4C235B928900C1418A = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					01FC2E5F235B928A00C1418A = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 01FC2E4C235B928900C1418A;
+					};
+					01FC2E6A235B928A00C1418A = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 01FC2E4C235B928900C1418A;
+					};
+				};
+			};
+			buildConfigurationList = 01FC2E48235B928900C1418A /* Build configuration list for PBXProject "RestaurantChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FC2E44235B928900C1418A;
+			productRefGroup = 01FC2E4E235B928900C1418A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FC2E4C235B928900C1418A /* RestaurantChecker */,
+				01FC2E5F235B928A00C1418A /* RestaurantCheckerTests */,
+				01FC2E6A235B928A00C1418A /* RestaurantCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FC2E4B235B928900C1418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FC2E54235B928A00C1418A /* Assets.xcassets in Resources */,
+				01FC2E57235B928A00C1418A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E5E235B928A00C1418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E69235B928A00C1418A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FC2E49235B928900C1418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FC2E5A235B928A00C1418A /* main.m in Sources */,
+				01FC2E52235B928900C1418A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E5C235B928A00C1418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FC2E65235B928A00C1418A /* RestaurantCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FC2E67235B928A00C1418A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FC2E70235B928A00C1418A /* RestaurantCheckerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01FC2E62235B928A00C1418A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FC2E4C235B928900C1418A /* RestaurantChecker */;
+			targetProxy = 01FC2E61235B928A00C1418A /* PBXContainerItemProxy */;
+		};
+		01FC2E6D235B928A00C1418A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FC2E4C235B928900C1418A /* RestaurantChecker */;
+			targetProxy = 01FC2E6C235B928A00C1418A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01FC2E55235B928A00C1418A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FC2E56235B928A00C1418A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01FC2E72235B928A00C1418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01FC2E73235B928A00C1418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01FC2E75235B928A00C1418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RestaurantChecker/RestaurantChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01FC2E76235B928A00C1418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RestaurantChecker/RestaurantChecker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01FC2E78235B928A00C1418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantChecker.app/Contents/MacOS/RestaurantChecker";
+			};
+			name = Debug;
+		};
+		01FC2E79235B928A00C1418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantChecker.app/Contents/MacOS/RestaurantChecker";
+			};
+			name = Release;
+		};
+		01FC2E7B235B928A00C1418A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestaurantChecker;
+			};
+			name = Debug;
+		};
+		01FC2E7C235B928A00C1418A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RestaurantCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bharddwaj.RestaurantCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestaurantChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FC2E48235B928900C1418A /* Build configuration list for PBXProject "RestaurantChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FC2E72235B928A00C1418A /* Debug */,
+				01FC2E73235B928A00C1418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FC2E74235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FC2E75235B928A00C1418A /* Debug */,
+				01FC2E76235B928A00C1418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FC2E77235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FC2E78235B928A00C1418A /* Debug */,
+				01FC2E79235B928A00C1418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FC2E7A235B928A00C1418A /* Build configuration list for PBXNativeTarget "RestaurantCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FC2E7B235B928A00C1418A /* Debug */,
+				01FC2E7C235B928A00C1418A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01FC2E45235B928900C1418A /* Project object */;
+}
